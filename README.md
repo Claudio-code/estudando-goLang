@@ -1,2 +1,7 @@
-# paradigma-estruturado-goLang
-Criando apis rapidas com concorencia nessa linguagem fantastica e estramamente simples
+<h1 align="center">
+   Paradigma estruturado goLang
+</h1>
+
+<a id="sobre"></a>
+## :scroll: Sobre 
+ - Aqui estamos aprendendo sobre o paradigma funcional e aprendendo como trabalhar com threads com as go-rotinas.
