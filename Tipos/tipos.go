@@ -21,9 +21,9 @@ func main() {
 	fmt.Println("o tipo", reflect.TypeOf(i1))
 
 	// boolean
-	bool := false
-	fmt.Println("O tipo boolean é ", reflect.TypeOf(bool))
-	fmt.Println(!bool)
+	boole := false
+	fmt.Println("O tipo boolean é ", reflect.TypeOf(boole))
+	fmt.Println(!boole)
 
 	// string
 	str := "cagada torta no mato"
@@ -34,4 +34,12 @@ func main() {
 		de cabeça	
 	`
 	fmt.Println(str2, len(str2))
+
+	var a int
+	var b float64
+	var c bool
+	var d string
+	var e *int
+
+	fmt.Printf("%v %v %v %q %v\n", a, b, c, d, e)
 }
