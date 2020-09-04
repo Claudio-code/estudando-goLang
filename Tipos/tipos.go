@@ -19,4 +19,19 @@ func main() {
 	i1 := math.MaxInt64
 	fmt.Println("o valor é = ", i1)
 	fmt.Println("o tipo", reflect.TypeOf(i1))
+
+	// boolean
+	bool := false
+	fmt.Println("O tipo boolean é ", reflect.TypeOf(bool))
+	fmt.Println(!bool)
+
+	// string
+	str := "cagada torta no mato"
+	fmt.Println(str + "!")
+	str2 := `
+		teste
+		de quebra
+		de cabeça	
+	`
+	fmt.Println(str2, len(str2))
 }
