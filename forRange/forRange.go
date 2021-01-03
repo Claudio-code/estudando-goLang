@@ -5,8 +5,7 @@ import "fmt"
 func main() {
 	numeros := [...]int{1, 2, 3, 4, 5, 21}
 
-	for i, item := range numeros {
-		fmt.Println(item)
+	for i, _ := range numeros {
 		fmt.Println(i)
 	}
 
